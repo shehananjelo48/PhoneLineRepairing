@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cab1"
+        android:title="Cab 1"
+        android:icon="@drawable/ic_local_phone_black_24dp"/>
+    <item
+        android:id="@+id/cab2"
+        android:title="Cab 2"
+        android:icon="@drawable/ic_local_phone_black_24dp"/>
+    <item
+        android:id="@+id/cab3"
+        android:title="Cab 3"
+        android:icon="@drawable/ic_local_phone_black_24dp"/>
+</menu>

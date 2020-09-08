@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my"
+    app:startDestination="@id/cab1">
+
+    <fragment
+        android:id="@+id/cab1"
+        android:name="shehan.com.sltphonelinerepairing.cab1"
+        android:label="fragment_cab1"
+        tools:layout="@layout/fragment_cab1" />
+    <fragment
+        android:id="@+id/cab2"
+        android:name="shehan.com.sltphonelinerepairing.cab2"
+        android:label="fragment_cab2"
+        tools:layout="@layout/fragment_cab2" />
+    <fragment
+        android:id="@+id/cab3"
+        android:name="shehan.com.sltphonelinerepairing.cab3"
+        android:label="fragment_cab3"
+        tools:layout="@layout/fragment_cab3" />
+</navigation>

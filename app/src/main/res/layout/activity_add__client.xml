@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add_Client"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTechnician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp"
+                android:text="Client"/>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etTelephoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="@string/telephone_no"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName|phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etNicNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/nic_no"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/address"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etContactNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/contact_no"
+                android:maxLength="10"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName|phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/name"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+
+            <EditText
+                android:id="@+id/etCabinetNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/cabinet_no"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etDpNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:freezesText="true"
+                android:hint="@string/dp_no"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etLoopNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:ems="10"
+                android:hint="@string/loop_no"
+                android:importantForAutofill="no"
+                android:inputType="textPersonName"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="218dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:text="Which kind of connection"
+                android:textColor="#DA0909"
+                android:textSize="15sp" />
+
+            <CheckBox
+                android:id="@+id/cbTelephon"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:text="@string/telephone" />
+
+            <CheckBox
+                android:id="@+id/cbPeo"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:text="@string/peo_tv" />
+
+            <CheckBox
+                android:id="@+id/cbRouter"
+                android:layout_width="218dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="99dp"
+                android:layout_marginLeft="99dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="99dp"
+                android:layout_marginRight="99dp"
+                android:text="@string/router" />
+
+            <!--<Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="btnAdd_location"
+                android:text="@string/add_location"
+                android:textColor="@android:color/white"
+                android:background="@drawable/round_button"/>-->
+
+            <Button
+                android:id="@+id/btnAddClient"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="btnAddClient_Client"
+                android:text="@string/add_update_client"
+                tools:text="@string/add_update_client"
+                android:textColor="@android:color/white"
+                android:background="@drawable/round_button"/>
+
+            <Button
+                android:id="@+id/btnsearch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="btnsearch_Client"
+                android:text="@string/search_client"
+                tools:text="@string/search_client"
+                android:textColor="@android:color/white"
+                android:background="@drawable/round_button"/>
+
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:onClick="btnDelete_Client"
+                android:text="@string/delete_client"
+                tools:text="Delete Client"
+                android:textColor="@android:color/white"
+                android:background="@drawable/round_button"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

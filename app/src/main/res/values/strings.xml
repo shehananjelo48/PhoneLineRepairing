@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">SLT Phone Line</string>
+    <string name="technician">Technician</string>
+    <string name="admin">Admin</string>
+    <string name="tecnician">Tecnician</string>
+    <string name="client">Client</string>
+    <string name="password">Password</string>
+    <string name="user_name">User Name</string>
+    <string name="login">Login</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="add_technician">Add Technician</string>
+    <string name="name">Name</string>
+    <string name="technician_id">Technician ID</string>
+    <string name="aria">Aria</string>
+    <string name="work_cabinet_no">Work Cabinet No</string>
+    <string name="vehical_no">Vehical No</string>
+    <string name="telephone_no">Telephone No</string>
+    <string name="conform_password">Conform Password</string>
+    <string name="register">Register</string>
+    <string name="nic_no">NIC No</string>
+    <string name="address">Address</string>
+    <string name="contactno">ContactNo</string>
+    <string name="contact_no">Contact No</string>
+    <string name="dp_no">DP No</string>
+    <string name="cabinet_no">Cabinet No</string>
+    <string name="loop_no">Loop No</string>
+    <string name="telephone">Telephone</string>
+    <string name="peo_tv">Peo TV</string>
+    <string name="router">Router</string>
+    <string name="witch_kind_connection_do_you_have">Witch kind Connection Do you have?</string>
+    <string name="Add">Add</string>
+    <string name="add_location">Add location</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="search_client">Search Client</string>
+    <string name="delete_client">Delete Client</string>
+    <string name="add_update_client">Add/Update Client</string>
+    <string name="search_technician">Search Technician</string>
+    <string name="delete_technician">Delete Technician</string>
+    <string name="super_admin_code">Super Admin Code</string>
+    <string name="admin_id">Admin ID</string>
+    <string name="cabinet">Cabinet</string>
+    <string name="delete">Delete</string>
+    <string name="remeber_me">Remember Me</string>
+    <string name="logout">logout</string>
+    <string name="login_shared_preference">shehan.com.sltphonelinerepairing_login_shared_preference</string>
+    <string name="login_status_shared_preferene">shehan.com.sltphonelinerepairing_login_status_shared_preferene</string>
+    <string name="browse">Browse</string>
+    <string name="slt_phone_line_repairing">SLT Phone Line Repairing</string>
+    <string name="slt_phone_line">SLT Phone Line</string>
+    <string name="repairing">Repairing</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="copyright">Copyright</string>
+    <string name="_2020_shehan_all_rights">2020 Shehan. All rights</string>
+    <string name="my_app">My App</string>
+    <string name="todo">TODO</string>
+    <string-array name="number">
+        <item>    </item>
+        <item>   1   </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>

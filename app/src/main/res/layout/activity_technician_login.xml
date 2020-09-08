@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Technician_login"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        app:title="Technician Login"
+        app:titleTextColor="#fff">
+
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/techni"
+        android:layout_marginTop="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/round_edittext">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person_black_24dp"/>
+    <EditText
+        android:id="@+id/etTechnicianID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/white"
+        android:background="@android:color/transparent"
+        android:hint="@string/technician_id"
+        android:inputType="textPersonName"
+         />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_edittext">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_lock_black_24dp"/>
+
+    <EditText
+        android:id="@+id/etpass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/white"
+        android:background="@android:color/transparent"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:onClick="btnLogin_click"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@drawable/round_button"/>
+
+</LinearLayout>

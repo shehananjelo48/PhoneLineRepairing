@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register_Technician"
+
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tvTechnician"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="24sp"
+                android:text="Technician"/>
+
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Propic"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:contentDescription="@string/todo" />
+
+            <Button
+                android:id="@+id/btnbrowse"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:text="@string/browse"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:id="@+id/etTechnicianID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/technician_id"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/name"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etTechnicianID" />
+
+            <EditText
+                android:id="@+id/etAria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/aria"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etName" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+            <TextView
+                android:id="@+id/etCabinetNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/work_cabinet_no" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner_1"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+            <TextView
+                android:id="@+id/etCabinetNo1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/work_cabinet_no" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner_2"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+            <TextView
+                android:id="@+id/etCabinetNo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/work_cabinet_no" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner_3"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+            <TextView
+                android:id="@+id/etCabinetNo3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/work_cabinet_no" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:id="@+id/searchable_spinner_4"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp" />
+
+            <TextView
+                android:id="@+id/etCabinetNo4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/work_cabinet_no" />
+
+            <EditText
+                android:id="@+id/etVehicalNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/vehical_no"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etCabinetNo" />
+
+            <EditText
+                android:id="@+id/etTelephoneNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="@string/telephone_no"
+                android:importantForAutofill="no"
+                android:inputType="text|phone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etVehicalNo" />
+
+            <EditText
+                android:id="@+id/etUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/user_name"
+                android:inputType="text"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etTelephoneNo" />
+
+            <EditText
+                android:id="@+id/etPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etUserName" />
+
+            <EditText
+                android:id="@+id/etConformPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="95dp"
+                android:layout_marginLeft="95dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="95dp"
+                android:layout_marginRight="95dp"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/conform_password"
+                android:inputType="textPassword"
+                android:maxLength="8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:onClick="rbclick"
+                    android:text="Voice" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:checked="false"
+                    android:onClick="rbclick"
+                    android:text="Data" />
+
+                <TextView
+                    android:id="@+id/etType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:autofillHints=""
+                    android:hint="Type" />
+            </RadioGroup>
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:onClick="btnAddTechnician"
+                android:text="@string/register"
+                android:textColor="@android:color/white"
+                app:layout_constraintTop_toBottomOf="@+id/etConformPassword" />
+
+            <Button
+                android:id="@+id/btnsearch"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:onClick="btnsearch_Technician"
+                android:text="@string/search_technician"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btndelete"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_button"
+                android:onClick="btnDelete_Technician"
+                android:text="@string/delete_technician"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

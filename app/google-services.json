@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1004711384100",
+    "firebase_url": "https://slt-phone-line-repairing.firebaseio.com",
+    "project_id": "slt-phone-line-repairing",
+    "storage_bucket": "slt-phone-line-repairing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004711384100:android:0df2aca7c0937b0a45f4b1",
+        "android_client_info": {
+          "package_name": "shehan.com.sltphonelinerepairing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004711384100-spsp9shjtp8vhbh1f9857bvejibgrt3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCI49cHXQN0JOZrcC1ld3kUo2ZYKp5EZHM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004711384100-spsp9shjtp8vhbh1f9857bvejibgrt3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
